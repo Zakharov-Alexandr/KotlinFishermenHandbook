@@ -11,7 +11,7 @@ class ContentActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.content_layout)
         tvTitle1.text = intent.getStringExtra("title")
-        tvTitle1.text = intent.getStringExtra("title")
-        im1.setImageResource(intent.getIntExtra("image", ))
+        tvContent1.text = intent.getStringExtra("content")
+        im1.setImageResource(intent.getIntExtra("image",R.drawable.som))
     }
 }

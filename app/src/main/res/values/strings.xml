@@ -4,4 +4,6 @@
     <string name="na">Наживки</string>
     <string name="sna">Снасти</string>
     <string name="history">Истории</string>
+    <string name="methods">Техники ловли</string>
+    <string name="settings">Настройки</string>
 </resources>

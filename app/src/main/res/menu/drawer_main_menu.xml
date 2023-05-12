@@ -2,35 +2,40 @@
 <menu xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     tools:showIn="navigation_view">
-    <group android:checkableBehavior="single">
-        <item android:title="@string/fish"
-            android:id="@+id/id_fish"
-            android:icon="@drawable/ic_fish" />
-        <item android:title="@string/na"
-            android:id="@+id/id_na"
-            android:icon="@drawable/ic_na" />
-        <item android:title="@string/sna"
-            android:id="@+id/id_sna"
-            android:icon="@drawable/ic_sna" />
-        <item android:title="@string/history"
-            android:id="@+id/id_history"
-            android:icon="@drawable/ic_history" />
-    </group>
-    <item android:title="Category 2">
+    <item
+        android:checkable="false"
+        android:title="Группа 1">
         <menu>
-            <item android:title="@string/na"
-                android:id="@+id/id_n"
-                android:icon="@drawable/ic_na" />
+            <item
+                android:id="@+id/id_fish"
+                android:icon="@drawable/ic_fish"
+                android:title="@string/fish" />
+            <item
+                android:id="@+id/id_na"
+                android:icon="@drawable/ic_na"
+                android:title="@string/na" />
+        </menu>
+    </item>
+    <item android:title="Группа 2">
+        <menu>
             <item android:title="@string/sna"
-                android:id="@+id/id_sn"
+                android:id="@+id/id_sna"
                 android:icon="@drawable/ic_sna" />
             <item android:title="@string/history"
-                android:id="@+id/id_histor"
-                android:icon="@drawable/ic_history"/>
-
-
+                android:id="@+id/id_history"
+                android:icon="@drawable/ic_history" />
         </menu>
-
-
+    </item>
+    <item android:title="Группа 3">
+        <menu>
+            <item
+                android:id="@+id/id_methods"
+                android:icon="@drawable/ic_methods"
+                android:title="@string/methods" />
+            <item
+                android:id="@+id/id_settings"
+                android:icon="@drawable/ic_settings"
+                android:title="@string/settings" />
+        </menu>
     </item>
 </menu>
